@@ -1,0 +1,579 @@
+\documentclass[10pt,a4paper]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%%%%%%
+\usepackage{textcomp}
+\usepackage[skins]{tcolorbox}
+\usepackage{pst-node}% http://ctan.org/pkg/pstricks
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage{amssymb}
+\usepackage{hyperref} %hyperlink of click of image 
+\usepackage{fourier}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%bookman font%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{bookman}
+\usepackage{lettrine} % first letter bigger
+%\usepackage[T1]{fontenc}
+%http://www.tug.dk/FontCatalogue/bookman/
+%\usepackage{tgchorus}
+%\usepackage{emerald}
+%\usepackage{miama}
+\usepackage{aurical}
+\usepackage{emerald}
+\usepackage{tikz} % for \gradientbox below.
+\usepackage{eso-pic}
+\usepackage{ragged2e}
+\usepackage{wrapfig}
+%\usepackage{background} %%% for background image required
+\usepackage{graphicx,lipsum,afterpage}%
+%\usepackage[framemethod=TikZ]{mdframed}%boxes
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage[tikz]{bclogo}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{lipsum}
+\usepackage{wrapfig}
+\usepackage{tcolorbox}
+\usepackage{tgchorus}
+\usepackage{aurical}
+\usepackage{chancery}
+\usepackage{eso-pic,graphicx}
+%\usepackage{lipsum}   % To generate test text 
+\usepackage{framed}
+\usepackage{tikz}
+\usepackage{mdframed}
+\usepackage[margin=2cm]{geometry}% for screen preview
+%\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+%\usepackage[dvipsnames]{xcolor} 
+\usepackage[object=vectorian]{pgfornament}
+\usetikzlibrary{calc}
+\usepackage{gensymb}
+\usepackage{graphics}
+\usepackage{textcomp}
+\usepackage{wallpaper,lipsum}
+\usepackage{savesym}
+\savesymbol{checkmark}
+\usepackage{dingbat}
+\savesymbol{Cross} 
+\usepackage{bbding} 
+\restoresymbol{bb}{Cross}%\usepackage[table]{xcolor}
+%\usepackage{graphicx,wrapfig,lipsum}
+%\usepackage[screen,nopanel]{pdfscreen}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{chancery}
+\usepackage{charter} % Charter font for main content
+\definecolor{byzantine}{rgb}{0.74, 0.2, 0.64}
+\definecolor{slateblue}{rgb}{0.42, 0.35, 0.8}
+\definecolor{brightlavender}{rgb}{0.75, 0.58, 0.89}
+\definecolor{classicrose}{rgb}{0.98, 0.8, 0.91}
+\definecolor{fondpaille}{cmyk}{0,0,0.1,0}
+\definecolor{cornflowerblue}{rgb}{0.39, 0.58, 0.93}
+\definecolor{lightpastelpurple}{rgb}{0.69, 0.61, 0.85}
+\definecolor{bgblue}{RGB}{245,243,253}
+\definecolor{ttblue}{RGB}{91,194,224}
+\definecolor{lightblue}{rgb}{0.68, 0.85, 0.9}
+\definecolor{mauve}{rgb}{0.88, 0.69, 1.0}
+\definecolor{ruddybrown}{rgb}{0.73, 0.4, 0.16}
+\definecolor{rosegold}{rgb}{0.72, 0.43, 0.47}
+\definecolor{americanrose}{rgb}{1.0, 0.01, 0.24}
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+\definecolor{cadetblue}{rgb}{0.37, 0.62, 0.63}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{silver}{rgb}{0.75, 0.75, 0.75}
+\definecolor{cadetblue}{rgb}{0.37, 0.62, 0.63}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{navyblue}{rgb}{0.0, 0.0, 0.5}
+\definecolor{electricblue}{rgb}{0.49, 0.98, 1.0}
+\definecolor{celestialblue}{rgb}{0.29, 0.33, 0.13}
+\definecolor{celestialblue}{rgb}{0.29, 0.59, 0.82}
+\definecolor{lavenderblue}{rgb}{0.8, 0.8, 1.0}
+\definecolor{brightlavender}{rgb}{0.75, 0.58, 0.89}
+\definecolor{fawn}{rgb}{0.9, 0.67, 0.44}
+\definecolor{brilliantlavender}{rgb}{0.96, 0.73, 1.0}
+\definecolor{darkpastelpurple}{rgb}{0.59, 0.44, 0.84}
+\definecolor{lavender(floral)}{rgb}{0.71, 0.49, 0.86}
+\definecolor{lightpastelpurple}{rgb}{0.69, 0.61, 0.85}
+\definecolor{celadon}{rgb}{0.67, 0.88, 0.69}
+\definecolor{fuchsiapink}{rgb}{1.0, 0.47, 1.0}
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{wallpaper} %for wallpaper
+\usepackage{color} %color package
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb,amsmath} % Math packages
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+%\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{fancybox}
+\usepackage{rotating}
+%\usepackage[table,xcdraw]{xcolor} %table
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+%\usepackage{tgchorus}
+\newmdenv[%
+    backgroundcolor=yellow!90,
+    linecolor=black,
+    outerlinewidth=1pt,
+    roundcorner=1mm,
+    skipabove=\baselineskip,
+    skipbelow=\baselineskip,
+    font=\small,
+    nobreak=true,
+]{graybox}
+%----------------------------------------------------------------------------------------
+%	REMARK ENVIRONMENT
+%----------------------------------------------------------------------------------------
+
+\newenvironment{remark}{\par\vspace{10pt}\small % Vertical white space above the remark and smaller font size
+\begin{list}{}{
+\leftmargin=35pt % Indentation on the left
+\rightmargin=25pt}\item\ignorespaces % Indentation on the right
+\makebox[-2.5pt]{\begin{tikzpicture}[overlay]
+\node[font=\sffamily\bfseries,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{black}{\bctrombone}};\end{tikzpicture}} % Cyan R in a circle in reference section
+\advance\baselineskip -1pt}{\end{list}\vskip5pt} % Tighter line spacing and white space after remark
+%----------------------------------------------------------------------------------------
+%	REMARK ENVIRONMENT
+%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetikzlibrary{decorations.pathmorphing,calc}
+\pgfmathsetseed{1} % To have predictable results
+% Define a background layer, in which the parchment shape is drawn
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+% define styles for the normal border and the torn border
+\tikzset{
+  normal border/.style={white!90!green!50, decorate, 
+     decoration={random steps, segment length=2.5cm, amplitude=.7mm}},
+  torn border/.style={white!90!green!5, decorate, 
+     decoration={random steps, segment length=.5cm, amplitude=1.7mm}}}
+
+% Macro to draw the shape behind the text, when it fits completly in the
+% page
+\def\parchmentframe#1{
+\tikz{
+  \node[inner sep=2em] (A) {#1};  % Draw the text of the node
+  \begin{pgfonlayer}{background}  % Draw the shape behind
+  \fill[normal border] 
+        (A.south east) -- (A.south west) -- 
+        (A.north west) -- (A.north east) -- cycle;
+  \end{pgfonlayer}}}
+
+% Macro to draw the shape, when the text will continue in next page
+\def\parchmentframetop#1{
+\tikz{
+  \node[inner sep=2em] (A) {#1};    % Draw the text of the node
+  \begin{pgfonlayer}{background}    
+  \fill[normal border]              % Draw the ``complete shape'' behind
+        (A.south east) -- (A.south west) -- 
+        (A.north west) -- (A.north east) -- cycle;
+  \fill[torn border]                % Add the torn lower border
+        ($(A.south east)-(0,.2)$) -- ($(A.south west)-(0,.2)$) -- 
+        ($(A.south west)+(0,.2)$) -- ($(A.south east)+(0,.2)$) -- cycle;
+  \end{pgfonlayer}}}
+
+% Macro to draw the shape, when the text continues from previous page
+\def\parchmentframebottom#1{
+\tikz{
+  \node[inner sep=2em] (A) {#1};   % Draw the text of the node
+  \begin{pgfonlayer}{background}   
+  \fill[normal border]             % Draw the ``complete shape'' behind
+        (A.south east) -- (A.south west) -- 
+        (A.north west) -- (A.north east) -- cycle;
+  \fill[torn border]               % Add the torn upper border
+        ($(A.north east)-(0,.2)$) -- ($(A.north west)-(0,.2)$) -- 
+        ($(A.north west)+(0,.2)$) -- ($(A.north east)+(0,.2)$) -- cycle;
+  \end{pgfonlayer}}}
+
+% Macro to draw the shape, when both the text continues from previous page
+% and it will continue in next page
+\def\parchmentframemiddle#1{
+\tikz{
+  \node[inner sep=2em] (A) {#1};   % Draw the text of the node
+  \begin{pgfonlayer}{background}   
+  \fill[normal border]             % Draw the ``complete shape'' behind
+        (A.south east) -- (A.south west) -- 
+        (A.north west) -- (A.north east) -- cycle;
+  \fill[torn border]               % Add the torn lower border
+        ($(A.south east)-(0,.2)$) -- ($(A.south west)-(0,.2)$) -- 
+        ($(A.south west)+(0,.2)$) -- ($(A.south east)+(0,.2)$) -- cycle;
+  \fill[torn border]               % Add the torn upper border
+        ($(A.north east)-(0,.2)$) -- ($(A.north west)-(0,.2)$) -- 
+        ($(A.north west)+(0,.2)$) -- ($(A.north east)+(0,.2)$) -- cycle;
+  \end{pgfonlayer}}}
+\newenvironment{parchment}[1][Example]{%
+  \def\FrameCommand{\parchmentframe}%
+  \def\FirstFrameCommand{\parchmentframetop}%
+  \def\LastFrameCommand{\parchmentframebottom}%
+  \def\MidFrameCommand{\parchmentframemiddle}%
+  \vskip\baselineskip
+  \MakeFramed {\FrameRestore}
+  \noindent\tikz\node[inner sep=1ex, draw=green!20,fill=green, 
+          anchor=west, overlay] at (0em, 2em) {\sffamily#1};\par}%
+{\endMakeFramed}
+%----------------------------------------------------------------------------------------
+%	WRAP TEXT
+%----------------------------------------------------------------------------------------
+\newenvironment{WrapText}[1][l]
+  {\wrapfigure{#1}{0.5\textwidth}\tcolorbox}
+  {\endtcolorbox\endwrapfigure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Background in every page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\backgroundsetup{
+%scale=1,
+%angle=0,
+%opacity=.4,  %% adjust
+%contents={\includegraphics[width=\paperwidth,height=\paperheight]{hubble2.jpg}} %image name 
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Background in every page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\afterpage{
+%  \thispagestyle{empty}\addtocounter{page}{-1}%
+%  \noindent\includegraphics[width=\textwidth,height=\textheight]{a2.png}%
+%}
+%% Generic use box with grey background
+%\newmdenv[%
+%    backgroundcolor=yellow!90,
+%    linecolor=black,
+%    outerlinewidth=1pt,
+%    roundcorner=1mm,
+%    skipabove=\baselineskip,
+%    skipbelow=\baselineskip,
+%    font=\small,
+%    nobreak=true,
+%]{graybox}
+%
+%\makeatletter
+%\let\orig@graybox=\graybox
+%\def\graybox#1{
+%  \orig@graybox[frametitle={#1}]
+%}
+%\makeatother
+%\newmdenv[shadow=false,shadowsize=11pt,linewidth=5pt,frametitlerule=true,roundcorner=1pt,]{myshadowbox}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-----------------------------------------------------------
+% Header and footer
+\lhead{}
+\chead{\textcolor{white}{}}
+\rhead{}
+\lfoot{}
+%Special Edition on Space Radiation
+\cfoot{} % Empty center footer
+\rfoot{
+\textcolor{white}{\footnotesize ~\\ Page \thepage}
+} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.4pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue }[1]{ % Date and issue number at the top of the newsletter
+\hfill \textsc{ \textcolor{cyan} {\mydate \today, No #1}} % Right-aligned date and issue number
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill by \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+\mdfdefinestyle{mystyle}{linecolor=blue}
+
+\begin{document}
+%https://en.wikibooks.org/wiki/LaTeX/Page_Layout--Page background
+\newcommand{\gradientbox}[3]{%
+  \begin{tikzpicture}
+    \node[left color=#1,right color=#2] {#3};
+  \end{tikzpicture}%
+}
+
+\AddToShipoutPicture{%
+  \AtPageLowerLeft{%
+    \rotatebox{90}{
+      \gradientbox{fuchsiapink!90}{white}{%
+        \begin{minipage}{\paperheight}%
+          \hspace*{ \stretch{1} }STEM Today, May 2017, No.20 \hspace*{ \stretch{1} }
+        \end{minipage}%
+      }
+    }%
+  }%
+}
+
+
+\thispagestyle{empty}
+\pagecolor{fuchsiapink}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	BIOGRAPHY PAGE
+%----------------------------------------------------------------------------------------
+%\begin{tikzpicture}[every node/.style={inner sep=0pt}]   
+%\node[text width=12cm,align=center](Text){%
+%\includegraphics[width=0.50 \linewidth]{vickie.jpg}\\
+%\textbf{\color{black}{\href{https://www.youtube.com/watch?v=4o0Z9YMD1jQ\&feature=youtu.be}{Biography}}}\\
+% \textcolor{cyan}{\href{https://www.nasa.gov/pdf/71437main\_Kloeris10-05.pdf}{Vickie L. Kloeris}  has a bachelor's of science in microbiology and a master's degree in food
+%science and technology, both from Texas A\&M University. Kloeris came to work
+%at Johnson Space Center as a food scientist in 1985. 
+%\hfill \break
+%\hfill \break
+%From 1985 through 1989, she was employed by NASA contractors in positions related to space food
+%processing and provisioning. Since 1989, Ms. Kloeris has been employed by
+%NASA as the Subsystem Manager for the Shuttle Food System. In January of
+%2000, Ms. Kloeris assumed the additional duties of managing the Space Station
+%food system and the Space Food Systems Laboratory. 
+%\hfill \break
+%\hfill \break
+%In her current position as Manager of Flight Food Systems she is responsible for the operation and
+%continuing development of the Shuttle and International Space Station food
+%systems. Kloeris is an active member of the Institute of Food Technologists and
+%currently serves on the Advisory Council for the Institute of Food Science and
+%Engineering at Texas A\&M University. 
+%\hfill \break
+%\hfill \break
+%}
+%\hfill \break
+%\hfill \break
+%\href{https://www.instagram.com/astro\_kjell/}{\includegraphics[width=1cm,height=1cm]{instagram.png}}
+%\href{https://twitter.com/astro\_kjell}{\includegraphics[width=1cm,height=1cm]{twitterlogo.jpg}}
+%
+%} ;
+%
+%\node[shift={(-1cm,1cm)},anchor=north west](CNW)  at (Text.north west)
+%               {\pgfornament[width=1cm,color = green]{61}};
+%\node[shift={(1cm,1cm)},anchor=north east](CNE)   at (Text.north east)
+%               {\pgfornament[width=1cm,color = green,symmetry=v]{61}}; 
+%\node[shift={(-1cm,-1cm)},anchor=south west](CSW) at (Text.south west)
+%               {\pgfornament[width=1cm,color = green,symmetry=h]{61}}; 
+%\node[shift={(1cm,-1cm)},anchor=south east](CSE)  at (Text.south east)   
+%               {\pgfornament[width=1cm,color = green,symmetry=c]{61}};  
+%\color{green} \pgfornamenthline{CNW}{CNE}{north}{87}
+%\pgfornamenthline{CSW}{CSE}{south}{87}
+%\pgfornamentvline{CNW}{CSW}{west}{87}
+%\pgfornamentvline{CNE}{CSE}{east}{87} 
+%\end{tikzpicture}
+%
+%\newpage
+%----------------------------------------------------------------------------------------
+	%COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+~\vfill
+\thispagestyle{empty} \hfill \break
+%\AddToShipoutPicture*{\put(6,5){\includegraphics[scale=1]{hubble3.jpg}}} % Image background
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\textbf{Cover Page}\hfill \break
+\textbf{\href{https://www.nasa.gov/centers/marshall/history/this-week-in-nasa-history-hubble-space-telescope-deployed-april-25-1990.html}{This Week in NASA History: Hubble Space Telescope Deployed -- April 25, 1990}}\hfill \break
+This week in 1990, the Hubble Space Telescope was deployed from the cargo bay of space shuttle Discovery as part of STS-31. NASA's Marshall Space Flight Center was responsible for the design, development, and construction of the Hubble Space Telescope and has played a significant role in the testing of Hubble's successor, the James Webb Space Telescope. Scheduled to launch in October 2018, the Webb telescope will observe the most distant objects in the universe, provide images of the first galaxies formed and see unexplored planets around distant stars.
+\hfill \break
+\hfill \break
+\textbf{Image Credit:} NASA
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\textbf{ Back Cover }\hfill \break
+\textbf{\href{https://www.nasa.gov/centers/marshall/history/this-week-in-nasa-history-fourth-hubble-servicing-mission-launches-march-1-2002.html}{This Week in NASA History: Fourth Hubble Servicing Mission Launches -- March 1, 2002}}
+\hfill \break
+This week in 2002, space shuttle Columbia and STS-109 launched from NASA's Kennedy Space Center to begin the fourth Hubble Space Telescope servicing mission. Here Hubble is berthed in Columbia's cargo bay, silhouetted against the airglow of Earth's horizon. During this mission, astronauts replaced Hubble's solar panels and installed the Advanced Camera for Surveys, which took the place of Hubble's Faint Object Camera, the telescope's last original instrument. NASA's Marshall Space Flight Center has been involved in development of many of the agency's optical instruments. Notably, Marshall played a significant role in NASA's Great Observatories, managing the development of Hubble and the Chandra X-ray Observatory, and the Burst and Transient Source Experiment for the Compton Gamma Ray Observatory. Marshall also manages Chandra's flight, current operations and guest science observer program and has played a significant role in the testing of Hubble's successor, the James Webb Space Telescope. Scheduled to launch in October 2018, the Webb telescope will observe the most distant objects in the universe, provide images of the first galaxies formed and see unexplored planets around distant stars.
+\hfill \break
+\hfill \break
+\textbf{Image Credit:} NASA 
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+
+\noindent \textit{ STEM Today , May 2017 } \hfill \break % Printing/edition date
+\pagecolor{fuchsiapink}
+\newpage
+\thispagestyle{empty}
+%----------------------------------------------------------------------------------------
+	%EDITORIAL SECTION
+%----------------------------------------------------------------------------------------
+\begin{parchment}[{ \huge  \textit{\textcolor{navyblue}{ \bccrayon Editorial}}}]
+\hfill \break
+\[
+  %\left[
+      \begin{tabular}{@{\quad}m{.3\textwidth}@{\qquad}m{.6\textwidth}@{\quad}}
+        \includegraphics[width=1 \linewidth]{me1.jpg} &
+          \raggedright%
+          %\textbf{Web addresses in texts} \par
+\it
+ \textcolor{navyblue}{{Dear Reader\hfill \break
+\hfill \break
+All young people should be prepared to think deeply and to think well so that they have the chance to become the innovators, educators, researchers, and leaders who can solve the most pressing challenges facing our world, both today and tomorrow. But, right now, not enough of our youth have access to quality STEM learning opportunities and too few students see these disciplines as springboards for their careers.
+\hfill \break
+According to Marillyn Hewson, "Our children - the elementary, middle and high school students of today - make up a generation that will change our universe forever. This is the generation that will walk on Mars, explore deep space and unlock mysteries that we can't yet imagine". "They won't get there alone. It is our job to prepare, inspire and equip them to build the future - and that's exactly what Generation Beyond is designed to do."
+\hfill \break
+STEM Today will inspire and educate people about Spaceflight and effects of Spaceflight on Astronauts.\hfill \break
+\hfill \break
+\textbf{Editor}\hfill \break 
+\textbf{Mr. Abhishek Kumar Sinha}\hfill \break
+       %STEM Today \hfill \break
+       %\href{https://twitter.com/aerocab} {\includegraphics[width=1cm,height=1cm]{fblogo.png}}
+       \href{https://twitter.com/vascularnaut} {\includegraphics[width=1cm,height=1cm]{twitterlogo.jpg}} 
+}}	 
+      \end{tabular}
+    %\right]
+\]
+\end{parchment}    
+     
+        
+\vspace*{\fill}
+\pagecolor{fuchsiapink}%
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION PAGE
+%----------------------------------------------------------------------------------------
+\newpage
+\hfill \break
+\begingroup
+\thispagestyle{empty}
+\centering
+\vspace*{9cm}
+\par\normalfont\fontsize{30}{30}\sffamily\selectfont
+{\color{white} Human Health Countermeasures (HHC) }\par % Book title
+\vspace*{1cm}
+{\normalsize	  
+\begin{bclogo}[
+  couleur=bgblue,
+  arrondi=0,
+  logo=\bclampe,
+  barre=none,
+  noborder=true]{\href{https://humanresearchroadmap.nasa.gov/Gaps/gap.aspx?i=275}{IM1: We do not know to what extent spaceflight alters various aspects of human immunity during spaceflight missions up to 6 months}}
+\hfill \break  
+At the 2005 inception of the HRP there was little known about the in-flight status of the human immune system. A wealth of knowledge defined immune dysregulation post-flight, including diminished cellular function, dysregulated cytokine production profiles and physiological stress. However, it was generally unknown if these observations reflected the in-flight condition. Several narrow-focus, low 'n' in-flight studies did indicate that immune dysregulation could be an in-flight phenomenon, however proper investigation of the various aspects of immunity and stress (innate/adaptive, humoral/cellular, dysfunction among specific cell types, etc.) was lacking. The reactivation of latent herpesviruses, thought to be a direct consequence of diminished immune function, was well established during short duration spaceflight, but it was unknown if this phenomenon would persist or resolve during long-duration spaceflight. It is generally believed that such dysregulation would not be a significant clinical risk for orbital flight (despite incidence of immune-related health events on orbit), but that persistent dysregulation could pose a crew health risk during exploration class deep-space missions. During the intervening period since HRP inception, Integrated Immune has thoroughly characterized certain aspects of adaptive immunity and viral reactivation during short- and long-duration spaceflight. The new findings confirm that both immune dysregulation and latent herpesvirus reactivation persist during 6-month ISS missions. Other aspects of immunoreguation remain relatively uninvestigated during spaceflight. \\
+\\
+\end{bclogo}
+}\par 
+\endgroup
+\pagecolor{fuchsiapink} %color of page 
+
+%----------------------------------------------------------------------------------------
+%	Content PAGE
+%----------------------------------------------------------------------------------------
+\hfill \break
+\newpage
+\begin{bclogo}[
+  couleur=bgblue,
+  arrondi=0,
+  logo=\leftpointright,
+  barre=none,
+  noborder=true]{ Latent virus reactivation in Astronauts at ISS }  
+\end{bclogo} 
+\hfill \break
+In this study , viral reactivation and shedding of EBV, VZV, CMV, HSV1, and human herpes virus 6 (HHV6) were measured in 23 astronauts (18 male and 5 female) before, during, and immediately following long duration spaceflight.
+\hfill \break
+\hfill \break
+\begin{bclogo}[
+  couleur=bgblue,
+  arrondi=0,
+  logo=\bcloupe,
+  barre=none,
+  noborder=true]{ Results }  
+\end{bclogo} 
+\hfill \break
+\textbf{Viral reactivation}\hfill \break
+Twenty-two of 23 astronauts shed one or more target viruses (Table 1). Fifteen astronauts shed VZV, 22 shed EBV, and 14 shed CMV at one or more time points before, during, or after spaceflight (Table 1). One astronaut did not shed any virus during any defined collection time. By contrast, none of the 20 control subjects shed VZV or CMV and only 2 of them shed EBV (Table 1). No astronauts or control subjects shed HSV1, HSV2, or HHV6 at any time throughout the study. Percent shedding among crewmembers with 95\% binomial confidence intervals are shown for EBV, VZV, and CMV in Fig. 1. For these three viruses, there was considerable variation of the shedding percentages over the collection time points (Fig. 1) suggesting a possible overall mission effect on the
+reactivation of these viruses.
+\hfill \break
+\hfill \break
+%\includegraphics[width=1\linewidth]{may_2017_1.png}
+\hfill \break
+\hfill \break
+
+
+
+%----------------------------------------------------------------------------------------
+% REFERENCE SECTION
+%----------------------------------------------------------------------------------------
+\newpage
+\pagecolor{fuchsiapink}
+\thispagestyle{empty}
+
+\makebox[\textwidth]{{\huge \itshape {{\color{black} References} }} }
+
+\hfill \break
+\hfill \break
+
+\begin{remark} 
+Satish K. Mehta, Mark L. Laudenslager, Raymond P. Stowe, Brian E. Crucian, Alan H. Feiveson, Clarence F. Sams \& Duane L. Pierson , Latent virus reactivation in astronauts on the international space station , npj Microgravity 3, Article number: 11 (2017).
+ \end{remark}
+ 
+\begin{remark} 
+Benjamin CL, Stowe RP, St. John L, et al. Decreases in thymopoiesis of astronauts returning from space flight. JCI Insight. 2016;1(12):e88787.
+\end{remark}
+
+\begin{remark} 
+Swantje Hauschild, Svantje Tauber, Beatrice Lauber, Cora S. Thiel, Liliana E. Layer, Oliver Ullrich, T cell regulation in microgravity - The current knowledge from in vitro experiments conducted in space, parabolic flights and ground-based facilities, Acta Astronautica, Volume 104, Issue 1, November 2014, Pages 365-377, ISSN 0094-5765.
+\end{remark}
+ 
+\begin{remark} 
+Martinez EM, Yoshida MC, Candelario TL, Hughes-Fulford M. Spaceflight and simulated microgravity cause a significant reduction of key gene expression in
+early T-cell activation. Am J Physiol Regul Integr Comp Physiol. 2015 Mar 15;308(6):R480-8.
+\end{remark}
+ 
+\begin{remark} 
+Hughes-Fulford M, Chang TT, Martinez EM, Li CF. Spaceflight alters expression  of microRNA during T-cell activation. FASEB J. 2015 Dec;29(12):4893-900.
+\end{remark} 
+ 
+\begin{remark} 
+Chang TT, Walther I, Li CF, Boonyaratanakornkit J, Galleri G, Meloni MA, Pippia P, Cogoli A, Hughes-Fulford M. The Rel/NF-$\kappa$B pathway and transcription of 
+immediate early genes in T cell activation are inhibited by microgravity. J Leukoc Biol. 2012 Dec;92(6):1133-45.
+\end{remark} 
+ 
+\begin{remark} 
+Hughes-Fulford M, Chang TT, Martinez EM, Li CF. Spaceflight alters expression  of microRNA during T-cell activation. FASEB J. 2015 Dec;29(12):4893-900.
+\end{remark}
+ 
+\begin{remark} 
+Jennifer Barrila, C Mark Ott, Carly LeBlanc, Satish K Mehta, Aurélie Crabbé, Phillip Stafford, Duane L Pierson \& Cheryl A Nickerson , Spaceflight modulates gene expression in the whole blood of astronauts, npj Microgravity 2, Article number: 16039 (2016). 
+\end{remark}
+ 
+\begin{remark} 
+Terada, M. et al. Effects of a closed space environment on gene expression in hair follicles of astronauts in the International Space Station. PloS One 11,
+e0150801 (2016).
+\end{remark}
+
+\begin{remark} 
+Swantje Hauschild, Svantje Tauber, Beatrice Lauber, Cora S. Thiel, Liliana E. Layer, Oliver Ullrich, T cell regulation in microgravity – The current knowledge from in vitro experiments conducted in space, parabolic flights and ground-based facilities, Acta Astronautica, Volume 104, Issue 1, November 2014, Pages 365-377, ISSN 0094-5765.
+\end{remark}
+
+\begin{remark} 
+Cora S. Thiel, Beatrice A. Lauber, Jennifer Polzer, Oliver Ullrich, Time course of cellular and molecular regulation in the immune system in altered gravity: Progressive damage or adaptation ?, REACH - Reviews in Human Space Exploration, Volume 5, March 2017, Pages 22-32, ISSN 2352-3093.
+\end{remark}
+
+
+\thispagestyle{empty}
+\end{document} 
