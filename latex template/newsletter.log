@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.3)  2 JUN 2017 19:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.3)  2 JUN 2017 19:24
 entering extended mode
 **F:/ISA*Material/template_newsletter/latex*template/newsletter.tex
 ("F:/ISA Material/template_newsletter/latex template/newsletter.tex"
@@ -1705,7 +1705,90 @@ LaTeX Info: Redefining \ohm on input line 312.
 Package gensymb Info: Using \textohm for \ohm on input line 312.
 Package gensymb Info: Using \textmu for \micro on input line 312.
 \GPT@outputbox=\box114
+<vickie.jpg, id=30, 1531.7225pt x 2352.79pt>
+File: vickie.jpg Graphic file (type jpg)
+ <use vickie.jpg>
+Package pdftex.def Info: vickie.jpg used on input line 341.
+(pdftex.def)             Requested size: 170.71652pt x 262.21826pt.
 
+<instagram.png, id=34, 150.5625pt x 150.5625pt>
+File: instagram.png Graphic file (type png)
+ <use instagram.png>
+Package pdftex.def Info: instagram.png used on input line 365.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+<twitterlogo.jpg, id=37, 224.84pt x 225.84375pt>
+File: twitterlogo.jpg Graphic file (type jpg)
+ <use twitterlogo.jpg>
+Package pdftex.def Info: twitterlogo.jpg used on input line 366.
+(pdftex.def)             Requested size: 28.45143pt x 28.45094pt.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+61.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+61.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+61.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+61.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+87.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+87.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+87.pgf")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfornament\vectorian\vectorian
+87.pgf")
+LaTeX Font Info:    Try loading font information for T1+futs on input line 384.
+
+ (C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 38
+4.
+ (C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 384.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 384.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 384.
+LaTeX Font Info:    Try loading font information for U+msa on input line 384.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 384.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 384.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 384.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 384.
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 384.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1bch.fd"
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
+) [1{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored! <F:/ISA Material/template_newsletter/latex template/vi
+ckie.jpg> <F:/ISA Material/template_newsletter/latex template/instagram.png> <F
+:/ISA Material/template_newsletter/latex template/twitterlogo.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 389--417
 
  []
@@ -1780,59 +1863,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+futs on input line 420.
-
-(C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-)
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 42
-0.
-
-(C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 420.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 420.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 420.
-LaTeX Font Info:    Try loading font information for U+msa on input line 420.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 420.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 420.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 420.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 420.
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 420.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1bch.fd"
-File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-) [1{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-
-
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!]
+[2]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 425.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 File: bc-crayon.mps Graphic file (type mps)
@@ -1842,19 +1876,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
-<me1.jpg, id=42, 2312.64pt x 2159.06625pt>
+<me1.jpg, id=55, 2312.64pt x 2159.06625pt>
 File: me1.jpg Graphic file (type jpg)
  <use me1.jpg>
 Package pdftex.def Info: me1.jpg used on input line 430.
 (pdftex.def)             Requested size: 145.11053pt x 135.46841pt.
-
-<twitterlogo.jpg, id=44, 224.84pt x 225.84375pt>
 File: twitterlogo.jpg Graphic file (type jpg)
  <use twitterlogo.jpg>
 Package pdftex.def Info: twitterlogo.jpg used on input line 447.
 (pdftex.def)             Requested size: 28.45143pt x 28.45094pt.
- [2 <F:/ISA Material/template_newsletter/latex template/me1.jpg> <F:/ISA Materi
-al/template_newsletter/latex template/twitterlogo.jpg>]
+
+[3 <F:/ISA Material/template_newsletter/latex template/me1.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 475--478
 
  []
@@ -1878,7 +1910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
-[3]
+[4]
 LaTeX Font Info:    Try loading font information for U+ark on input line 494.
  (C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\dingbat\uark.fd
 File: uark.fd 2001/04/27 v1.00 Font definitions for the ark10 font
@@ -1920,7 +1952,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[5]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 525--526
 [][] 
  []
@@ -1982,7 +2014,7 @@ File: bc-trombone.mps Graphic file (type mps)
 
 [MP to PDF]
 (C:\Users\admin\AppData\Roaming\MiKTeX\2.9\tex\latex\bclogo\bc-trombone.mps)
-[5]
+[6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
  ("F:\ISA Material\template_newsletter\latex template\newsletter.aux")
@@ -1996,10 +2028,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32174 strings out of 494045
- 619218 string characters out of 3145970
- 850264 words of memory out of 3000000
- 34820 multiletter control sequences out of 15000+200000
+ 32272 strings out of 494045
+ 622088 string characters out of 3145970
+ 1045370 words of memory out of 3000000
+ 34894 multiletter control sequences out of 15000+200000
  72594 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  55i,16n,85p,10469b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2015,9 +2047,9 @@ TeX/2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/admin/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/admin/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/admin/AppDa
 ta/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/fourier-mlit.pfb>
-Output written on newsletter.pdf (5 pages, 1274168 bytes).
+Output written on newsletter.pdf (6 pages, 1736004 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
